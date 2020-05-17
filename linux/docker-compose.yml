@@ -19,8 +19,8 @@ services:
       - "gsv"
     environment:
       NODE_ENV: production
-      TTN_APP_ID: asset_tracking_test1
-      TTN_ACCESS_KEY: ttn-account-v2.JUe8XYeQ5iUF0-vaixucygKEez0raRzWq5uI9WdQA9c
+      TTN_APP_ID: [your_ttn_app_id]
+      TTN_ACCESS_KEY: [your_ttn_access_key]
       API_HOST: "gsv"
       API_PORT: "5000"
     networks:
